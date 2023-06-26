@@ -7,9 +7,6 @@
 //   };
 // }
 
-// const novoUser = new User("Pedro", "px@px.com");
-// console.log(novoUser.exibirInfos());
-
 // function Admin(role) {
 //   User.call(this, "Pedro", "px@px.com");
 //   this.role = role || "estudante";
@@ -35,4 +32,6 @@ const novoUser = Object.create(user);
 novoUser.init("Pedro", "px@px.com");
 console.log(novoUser.exibirInfos());
 
-// console.log(user.isPrototypeOf(novoUser));
+// O método call() executa a função passando valores e parâmetros específicos para serem usados como contexto do this. Ou seja, é possível atribuir um this diferente do contexto atual ao executar a função.
+
+// O método apply() funciona de forma semelhante ao call(), porém recebe a lista de argumentos em um array:
