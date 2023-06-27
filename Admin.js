@@ -13,3 +13,5 @@ class Admin extends User {
 const novoAdmin = new Admin("Rodrigo", "rg@r.com", "1998/03/07");
 console.log(novoAdmin.criarCurso("JS", "20"));
 console.log(novoAdmin.exibirInfos());
+
+// A palavra-chave super é usada para acessar o objeto pai de um objeto, em outros casos, é usada para acessar a classe pai de uma classe.

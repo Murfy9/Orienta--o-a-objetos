@@ -6,8 +6,10 @@ export default class User {
     this.role = role || "estudante";
     this.ativo = ativo;
   }
-
+  // Método
   exibirInfos() {
     return `${this.nome}, ${this.email}`;
   }
 }
+
+// O construtor é um método especial para criar e inicializar um objeto criado a partir de uma classe.
