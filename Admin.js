@@ -11,3 +11,5 @@ export default class Admin extends User {
 }
 
 // A palavra-chave super é usada para acessar o objeto pai de um objeto, em outros casos, é usada para acessar a classe pai de uma classe.
+
+// Polimorfismo é a possibilidade dessas subclasses usarem um método, mas com o comportamento interno diferente.
